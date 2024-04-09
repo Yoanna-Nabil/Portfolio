@@ -1,0 +1,46 @@
+.contact {
+    margin-top: 86px;
+    min-height: calc(-106px + 100vh);
+}
+
+.star {
+    position: relative;
+}
+
+.star::after {
+    content: "";
+    position: absolute;
+    right: 200%;
+    top: 50%;
+    width: 80px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
+
+.star::before {
+    content: "";
+    position: absolute;
+    left: 200%;
+    top: 50%;
+    width: 80px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
+
+.inputValid {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.inputValid:focus{
+    outline: none !important;
+}
+
+.btnSuccess {
+    background-color: #1abc9c;
+}
+.btnSuccess:hover {
+    background-color: #0b6e5b;
+}

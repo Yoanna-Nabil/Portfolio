@@ -1,0 +1,32 @@
+.bgColor {
+    background-color: #1abc9c;
+}
+
+.About {
+    margin-top: 86px;
+    min-height: calc(-106px + 100vh);
+}
+
+.star {
+    position: relative;
+}
+
+.star::after {
+    content: "";
+    position: absolute;
+    right: 200%;
+    top: 50%;
+    width: 80px;
+    height: 4px;
+    background-color: white;
+}
+
+.star::before {
+    content: "";
+    position: absolute;
+    left: 200%;
+    top: 50%;
+    width: 80px;
+    height: 4px;
+    background-color: white;
+}
